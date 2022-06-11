@@ -12,12 +12,13 @@
 
 # Usage
 
+```
 import foobar
 
 foobar.pluralize('word')# Returns "words"
 foobar.pluralize('goose')# Returns "goose"
 foobar.singularize("phenomena") # Returns "phenomena"
-
+```
 # Contributing 
 
 ###  Pull request are welcome . For Major changed , please open an issue first to discuss what you would like to change.
