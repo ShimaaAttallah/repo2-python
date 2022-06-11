@@ -1,0 +1,12 @@
+git log
+git tag -a v1.4 4ad3b47 -m "create tag"
+git push origin v1.4 
+
+git tag
+
+tell me how to delete tag locally and remotely
+	locally
+	git tag -d v1.4
+	remotely
+	git push origin --ddelete v1.4
+	
