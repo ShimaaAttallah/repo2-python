@@ -1,0 +1,54 @@
+mkdir python2
+cd python2
+git clone git@github.com:ShimaaAttallah/repo2-python.git
+ls   (repo2-python)
+cd repo2-python  
+ls   (README.md)
+ls -a   (.git/README.md/.gitignore)
+
+git remote -v
+touch index.html style.css
+git add .
+git commit -m "create files"
+git push origin main
+
+Branch
+ls -a
+git branch
+ -git branch dev
+	 git branch
+	 ls -a
+	 git branch
+	 ls -a
+	 touch file1 file2
+	 git add .
+	 git commit -m "create files branch"
+	 git push origin dev
+git checkout main
+ - git branch test
+ 	git branch
+	git checkout test
+	git push origin test
+git checkout main
+	git merge dev
+	git branch
+	ls -a
+	git push origin main
+
+git merge dev
+git push origin main
+
+
+to remove the brance
+
+	local
+	
+git checkout main 
+git branch -d div
+git branch -d test
+
+	remotely
+	
+git checkout main 
+git push origin :div
+git push origin :test
